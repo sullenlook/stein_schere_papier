@@ -1,0 +1,11 @@
+STEIN_SCHERE_PAPIER PLUGIN IN DEUTSCH
+
+THIS IS ONLY A TEST
+
+So installierst Du dieses Plugin: 
+
+# 1: Lade den "stein_schere_papier" ordner in ~/SiriServerCore/plugins/ 
+
+# 2: Fügen Sie "stein_schere_papier" in plugins.conf ein
+
+FERTIG
