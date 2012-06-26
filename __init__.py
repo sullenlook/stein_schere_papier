@@ -22,6 +22,7 @@ class steinscherepapier(Plugin):
             self.say(random.choice(rep2))
         self.complete_request()
 
+<<<<<<< HEAD
     @register("de-DE", ".*schnick .*schnack .*schnuck.*")
     def st_knuck(self, speech, language):
         if language == 'de-DE':
@@ -33,3 +34,6 @@ class steinscherepapier(Plugin):
             self.say(random.choice(rep))
             self.say(random.choice(rep2))
         self.complete_request()
+=======
+
+>>>>>>> parent of 9179b16... update #2
