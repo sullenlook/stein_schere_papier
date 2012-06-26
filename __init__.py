@@ -22,4 +22,14 @@ class steinscherepapier(Plugin):
             self.say(random.choice(rep2))
         self.complete_request()
 
-
+    @register("de-DE", ".*schnick .*schnack .*schnuck.*")
+    def st_knock(self, speech, language):
+        if language == 'de-DE':
+            rep = ["Schnick","Schnack","Schnuck"]
+            rep2 = ["Du hast Gewonnen!","Ich hab Gewonnen!","Unendschieden wir muessen wiederholen!"]
+            answer = self.ask(u"Ok lass uns Spielen! Du faengst an")
+            answer = self.ask(random.choice(rep))
+            answer = self.ask(random.choice(rep))
+            self.say(random.choice(rep))
+            self.say(random.choice(rep2))
+        self.complete_request()
