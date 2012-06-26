@@ -23,7 +23,7 @@ class steinscherepapier(Plugin):
         self.complete_request()
 
     @register("de-DE", ".*schnick .*schnack .*schnuck.*")
-    def st_knock(self, speech, language):
+    def st_knuck(self, speech, language):
         if language == 'de-DE':
             rep = ["Schnick","Schnack","Schnuck"]
             rep2 = ["Du hast Gewonnen!","Ich hab Gewonnen!","Unendschieden wir muessen wiederholen!"]
